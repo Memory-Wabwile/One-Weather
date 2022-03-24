@@ -1,8 +1,17 @@
+body{
+    background-image: url("/images/sunset-beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  100% 100vh;
+    overflow: hidden;
+
+}
+
 .input-group{
     display: block;
     margin: 0 auto;
     margin-left: 38%;
-    margin-top: 5%;
+    margin-top: 3%;
     
 }
 .form{
@@ -14,7 +23,7 @@
 text-align: center;
    left: 0;
    
-    margin-top:12%;
+    margin-top:10%;
     width: 65%;
 }
 
@@ -29,9 +38,16 @@ text-align: center;
     text-align: center;
     margin-top: 10%;
     width: -50%;
+
+
    
 }
 p{
     font-size: 25px;
+}
+.alldays{
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
