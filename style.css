@@ -9,3 +9,13 @@
     border: 1px solid grey;
     box-shadow: 3px 3px 5px grey;
 }
+
+.city{
+    text-align: center;
+    width: 40%;
+    margin-top:12%;
+}
+
+.city>h2{
+    font-size: 3em;
+}
