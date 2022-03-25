@@ -22,3 +22,5 @@ let weather = {
   };
   
   // write your code here
+//   let city = prompt("Enter a city")
+//   alert(`It is currently ${}  in ${weather[city]} with a humidity of ${weather}`)

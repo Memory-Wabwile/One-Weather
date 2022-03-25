@@ -2,7 +2,7 @@ body{
     background-image: url("/images/sunset-beach.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:  100% 110vh;
+    background-size:  100% 120vh;
     overflow: hidden;
     
 }
@@ -52,5 +52,5 @@ p{
 .opacity{
     background-color: rgba(44, 42, 42, 0.5);
     width: auto;
-    height: 110vh;
+    height:max-content;
 }
