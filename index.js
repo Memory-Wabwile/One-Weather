@@ -21,6 +21,20 @@ let weather = {
     }
   };
   
-  // write your code here
-//   let city = prompt("Enter a city")
-//   alert(`It is currently ${}  in ${weather[city]} with a humidity of ${weather}`)
+//   write your code here
+
+let city = prompt("Enter a city");
+city = city.trim().toLowerCase();
+
+if (weather[city] !== undefined) {
+  let temperature = Math.round(weather[city].temp);
+  let farenheit = Math.round((temperature * 9) / 5 + 32);
+  alert(
+    `It is currently ${temperature}°C (${farenheit}°F) in ${city} with a humidity of ${weather[city].humidity}% `
+  );
+} else {
+  alert(
+    `Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+${city}`
+  );
+}
+
